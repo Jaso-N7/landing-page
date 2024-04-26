@@ -20,7 +20,7 @@ body {
 
 }
 
-header { padding: 20px 150px; }
+header, section { padding: 20px 150px; }
 
 .hero-container {
     background-color: #1F2937;
