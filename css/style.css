@@ -14,6 +14,7 @@
 
 body {
     font-family: "Lato", sans-serif;
+    font-size: 18px;
     font-weight: 400;
     font-style: normal;
     line-height: 1.2;
@@ -164,5 +165,34 @@ header, section { padding: 20px 150px 40px; }
 .quoter {
     text-align: right;
     font-size: 24px;
+    font-weight: 700;
+}
+
+#action {
+    /* height: 250px; */
+    padding: 80px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    flex: 60%;
+    padding: 60px 0px;
+    background-color: #3882F6;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.action-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-btn {
+    border: 2px solid #FFF;
+    border-radius: 12px;
     font-weight: 700;
 }
