@@ -114,6 +114,7 @@ header, section { padding: 20px 150px 40px; }
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    padding-bottom: 100px;
 }
 
 .info-header {
@@ -146,4 +147,22 @@ header, section { padding: 20px 150px 40px; }
     width: 150px;
     height: 150px;
     margin-bottom: 8px;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    padding: 80px 220px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
 }
