@@ -196,3 +196,12 @@ header, section { padding: 20px 150px 40px; }
     border-radius: 12px;
     font-weight: 700;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #FFF;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
