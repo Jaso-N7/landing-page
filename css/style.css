@@ -57,9 +57,14 @@ header, section { padding: 20px 150px 40px; }
    .hero-list a:visited,
    .hero-list a:hover,
    .hero-list a:active */ 
+.hero-logo:link,
+.hero-logo:visited,
 .hero-list a {
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.hero-list a {
     margin-left: 22px;
 }
 
